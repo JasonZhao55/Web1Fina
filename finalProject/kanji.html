@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale= 1">
+    <title>Kanji And Grammar</title>
+    <link href="styles/main.css" rel="stylesheet">    
+    
+</head>
+
+<body >
+    <div class="mainHead">
+        <h2> Kanji Practice</h2>
+
+        
+        <ul class="mainNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="kanji.html">Kanji</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    
+    </div>   
+    
+    <div class="container1">
+        <div class="container2">
+
+            
+            <div class="kanjiQ" id="KanjiQ"> question</div>
+            <br>
+            <form class="kanjiA"id="kanjiF">
+                <input type="text" name="ans" autofocus autocomplete="off">
+            </form>
+            <br>
+            <button class="kanjiA" id ="next" onclick="nextQ()">Next</button>
+            <button class="kanjiA" id ="submit">Submit</button>
+            
+            <p id="demo"></p>
+        </div>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
